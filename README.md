@@ -4,7 +4,7 @@ Configuration for a full isolated LAN in Virt-Manager. Dnsmasq config forwards D
 
 ## Step 1 - setup deps and host
 
-Host configuration: Install [Stubby](https://getdnsapi.net/blog/dns-privacy-daemon-stubby/) and [Virt-Manager].
+Host configuration: Install [Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby) and [Virt-Manager](https://virt-manager.org/).
 
 
 Create a new isolated network, akin to the following config: (via `virsh net-edit isolated`)
